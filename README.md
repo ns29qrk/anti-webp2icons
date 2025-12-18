@@ -15,13 +15,16 @@ Developed to be used within Antigravity workflows without external dependencies 
 
 ## Installation
 
-### From Source
+### A. For Go Users (Recommended)
+If you have Go installed, you can install the tool globally with:
 ```bash
 go install github.com/ns29qrk/anti-webp2icons@latest
 ```
 
-### From Releases
-Download the pre-built binary for your platform from the [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) page.
+### B. For Non-Go Users
+1. Download the pre-built binary for your platform from the [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) page.
+2. Place the binary in a folder of your choice (e.g., `/usr/local/bin` on Mac).
+3. **Antigravity Users**: You can simply drag and drop the downloaded binary into Antigravity and ask it to "Use this to create icons," and the AI will help you with the setup.
 
 ## Usage
 
@@ -54,13 +57,13 @@ webp2icons -mac -win my_icon.webp
 
 ## Antigravity Integration
 
-This repository is optimized for [Antigravity](https://antigravity.google). You can use the built-in workflow to automate icon creation.
+This repository is optimized for [Antigravity](https://antigravity.google). You can automate icon creation by simply chatting.
 
-1. **Global Install**: To use the workflow from any project, install the tool globally:
-   ```bash
-   go install github.com/ns29qrk/anti-webp2icons@latest
-   ```
-2. **Slash Command**: Use `/create-app-icons` in your Antigravity chat to trigger the automatic icon generation process.
+1. **Setup**: Download or install the tool as described in the "Installation" section.
+2. **Usage**: Use the `/create-app-icons` command in your chat and specify your source image.
+
+> [!TIP]
+> If you are not familiar with technical terms like "PATH," just ask Antigravity to "Help me install this tool," and the AI will support your setup.
 
 ## Changelog
 

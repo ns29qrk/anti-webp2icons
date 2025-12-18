@@ -13,15 +13,20 @@
 - **跨平台**: 使用 Go 語言編寫，支持 Mac、Windows 和 Linux。
 - **多種格式**: 同時生成 `.icns` (Mac)、 `.ico` (Windows) 以及多種尺寸的 PNG (Linux: 16, 32, 48, 128, 256, 512)。
 
-## 安裝方法
+## 導入方法（安裝）
 
-### 從源碼編譯
+請根據您的環境選擇以下其中一種方法。
+
+### A. Go 語言使用者・工程師
+在終端機執行以下指令即可完成安裝，並可在任何地方使用 `webp2icons` 指令。
 ```bash
 go install github.com/ns29qrk/anti-webp2icons@latest
 ```
 
-### 下載執行檔
-請從 [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) 頁面下載適用於您平台的預編譯二進制文件。
+### B. 一般使用者・非工程師（推薦）
+1. 從 [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) 頁面下載適合您作業系統的檔案（Mac 請選 `macos`，Windows 請選 `windows.exe`）。
+2. 將下載的檔案放在方便找的地方（例如：文件夾，或 Mac 的 `/usr/local/bin` 等）。
+3. **Antigravity 使用者**: 直接將下載的檔案拖入 Antigravity，並告訴它「我想用這個製作圖標」，AI 就會幫您完成後續的設定。
 
 ## 使用方法
 
@@ -59,13 +64,13 @@ webp2icons -mac -win my_icon.webp
 
 ## 與 Antigravity 整合
 
-此存儲庫已針對 [Antigravity](https://antigravity.google) 進行優化。您可以使用內建的工作流來自動化圖標創建。
+此存儲庫已針對 [Antigravity](https://antigravity.google) 進行優化。無需記住複雜指令，只需透過對話即可製作圖標。
 
-1. **全域安裝**: 為了讓工作流在任何項目中都能運行，請先安裝此工具：
-   ```bash
-   go install github.com/ns29qrk/anti-webp2icons@latest
-   ```
-2. **斜線指令**: 在 Antigravity 聊天框中使用 `/create-app-icons` 即可觸發自動化圖標生成流程。
+1. **準備**: 按照上述「導入方法」下載或安裝工具。
+2. **使用**: 在聊天框中輸入 `/create-app-icons` 並指定原始圖片即可。
+
+> [!TIP]
+> 即使不懂「設定路徑 (PATH)」等專業術語也沒關係。只要對 Antigravity 說「幫我安裝這個工具」，AI 就會檢查您的環境並協助完成設定。
 
 ## 更新歷史
 

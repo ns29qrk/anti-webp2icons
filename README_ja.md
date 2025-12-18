@@ -14,15 +14,20 @@
 - **マルチフォーマット**: `.icns` (Mac)、 `.ico` (Windows)、および Linux 用の各サイズ PNG (16, 32, 48, 128, 256, 512) を生成します。
 - **AI フレンドリー**: Antigravity 用のワークフローを内蔵しています。
 
-## インストール方法
+## 導入方法（インストール）
 
-### ソースからビルド
+あなたの環境に合わせて、以下の2つの方法から選んでください。
+
+### A. Go 言語を使っている・エンジニアの方
+以下のコマンドをターミナルで実行するだけでインストールが完了し、どこからでも `webp2icons` コマンドが使えるようになります。
 ```bash
 go install github.com/ns29qrk/anti-webp2icons@latest
 ```
 
-### バイナリをダウンロード
-[Releases](https://github.com/ns29qrk/anti-webp2icons/releases) ページから、お使いのプラットフォームに合わせた実行ファイルをダウンロードしてください。
+### B. 一般ユーザー・非エンジニアの方（推奨）
+1. [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) ページから、お使いの OS に合ったファイルをダウンロードします（Mac なら `macos`、Windows なら `windows.exe` と書かれたもの）。
+2. ダウンロードしたファイルを、分かりやすい場所（例：書類フォルダや、Mac なら `/usr/local/bin` など）に置きます。
+3. **Antigravity をお使いの場合**: ダウンロードしたファイルを Antigravity にドラッグ＆ドロップして、「これを使ってアイコンを作りたい」と伝えるだけで、あとの難しい設定は AI が代行してくれます。
 
 ## 使い方
 
@@ -60,13 +65,13 @@ webp2icons -mac -win my_icon.webp
 
 ## Antigravity との連携
 
-このリポジトリは [Antigravity](https://antigravity.google) に最適化されています。内蔵のワークフローを使用して、アイコン生成を自動化できます。
+このリポジトリは [Antigravity](https://antigravity.google) に最適化されています。難しいコマンドを覚えなくても、チャットで指示するだけでアイコンが作れます。
 
-1. **グローバルインストール**: どのプロジェクトからでもワークフローを呼び出せるように、ツールをインストールしておきます：
-   ```bash
-   go install github.com/ns29qrk/anti-webp2icons@latest
-   ```
-2. **スラッシュコマンド**: チャット欄で `/create-app-icons` と入力するだけで、AI が自動的にアイコン生成プロセスを開始します。
+1. **準備**: 上記の「導入方法」に従ってファイルをダウンロードするかインストールします。
+2. **使う**: チャット欄で `/create-app-icons` と入力し、元になる画像を指定するだけです。
+
+> [!TIP]
+> 「パスを通す」といった専門用語が分からなくても、Antigravity に「インストールを手伝って」と言えば、AI があなたの環境を調べて設定をサポートしてくれます。
 
 ## 更新履歴
 
