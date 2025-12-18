@@ -52,6 +52,19 @@ webp2icons -mac -win my_icon.webp
 - `-v`: Show version.
 - `-h`: Show help.
 
+## Changelog
+
+### v1.0.0 (2025-12-18)
+- Initial release.
+- Supports WebP/PNG input.
+- Outputs ICNS (macOS), ICO (Windows), and PNG (Linux: 16, 32, 48, 128, 256, 512).
+- Added output control flags (`-mac`, `-win`, `-linux`).
+- Added output directory flag (`-d`).
+
+## Disclaimer
+
+This software is provided "as is," without warranty of any kind. The author shall not be liable for any damages arising from the use of this tool. Use it at your own risk.
+
 ## License
 
-MIT License. See [LICENSE(optional)](#) for details.
+MIT License. See the [LICENSE](./LICENSE) file for details.
