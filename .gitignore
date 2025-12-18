@@ -4,7 +4,6 @@ webp2icons.exe
 
 # Dependencies
 vendor/
-go.sum
 
 # OS generated files
 .DS_Store
