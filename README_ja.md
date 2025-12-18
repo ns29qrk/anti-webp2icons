@@ -18,11 +18,11 @@
 
 ### ソースからビルド
 ```bash
-go install github.com/p_suke/anti-webp2icons@latest
+go install github.com/ns29qrk/anti-webp2icons@latest
 ```
 
 ### バイナリをダウンロード
-[Releases](https://github.com/p_suke/anti-webp2icons/releases) ページから、お使いのプラットフォームに合わせた実行ファイルをダウンロードしてください。
+[Releases](https://github.com/ns29qrk/anti-webp2icons/releases) ページから、お使いのプラットフォームに合わせた実行ファイルをダウンロードしてください。
 
 ## 使い方
 

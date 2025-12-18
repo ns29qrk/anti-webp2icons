@@ -17,11 +17,11 @@ Developed to be used within Antigravity workflows without external dependencies 
 
 ### From Source
 ```bash
-go install github.com/p_suke/anti-webp2icons@latest
+go install github.com/ns29qrk/anti-webp2icons@latest
 ```
 
 ### From Releases
-Download the pre-built binary for your platform from the [Releases](https://github.com/p_suke/anti-webp2icons/releases) page.
+Download the pre-built binary for your platform from the [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) page.
 
 ## Usage
 

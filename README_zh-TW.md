@@ -17,11 +17,11 @@
 
 ### 從源碼編譯
 ```bash
-go install github.com/p_suke/anti-webp2icons@latest
+go install github.com/ns29qrk/anti-webp2icons@latest
 ```
 
 ### 下載執行檔
-請從 [Releases](https://github.com/p_suke/anti-webp2icons/releases) 頁面下載適用於您平台的預編譯二進制文件。
+請從 [Releases](https://github.com/ns29qrk/anti-webp2icons/releases) 頁面下載適用於您平台的預編譯二進制文件。
 
 ## 使用方法
 
