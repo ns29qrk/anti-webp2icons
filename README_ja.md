@@ -12,6 +12,7 @@
 - **高品質**: Catmull-Rom 補間を使用して、美しくシャープにリサイズします。
 - **クロスプラットフォーム**: Go 製のため、Mac、Windows、Linux で動作します。
 - **マルチフォーマット**: `.icns` (Mac)、 `.ico` (Windows)、および Linux 用の各サイズ PNG (16, 32, 48, 128, 256, 512) を生成します。
+- **AI フレンドリー**: Antigravity 用のワークフローを内蔵しています。
 
 ## インストール方法
 
@@ -56,6 +57,16 @@ webp2icons -mac -win my_icon.webp
 - `-linux`: Linux 用アイコン (PNG) を生成
 - `-v`: バージョンを表示
 - `-h`: ヘルプを表示
+
+## Antigravity との連携
+
+このリポジトリは [Antigravity](https://antigravity.google) に最適化されています。内蔵のワークフローを使用して、アイコン生成を自動化できます。
+
+1. **グローバルインストール**: どのプロジェクトからでもワークフローを呼び出せるように、ツールをインストールしておきます：
+   ```bash
+   go install github.com/ns29qrk/anti-webp2icons@latest
+   ```
+2. **スラッシュコマンド**: チャット欄で `/create-app-icons` と入力するだけで、AI が自動的にアイコン生成プロセスを開始します。
 
 ## 更新履歴
 

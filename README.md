@@ -52,6 +52,16 @@ webp2icons -mac -win my_icon.webp
 - `-v`: Show version.
 - `-h`: Show help.
 
+## Antigravity Integration
+
+This repository is optimized for [Antigravity](https://antigravity.google). You can use the built-in workflow to automate icon creation.
+
+1. **Global Install**: To use the workflow from any project, install the tool globally:
+   ```bash
+   go install github.com/ns29qrk/anti-webp2icons@latest
+   ```
+2. **Slash Command**: Use `/create-app-icons` in your Antigravity chat to trigger the automatic icon generation process.
+
 ## Changelog
 
 ### v1.0.0 (2025-12-18)

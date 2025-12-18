@@ -57,6 +57,16 @@ webp2icons -mac -win my_icon.webp
 - `-v`: 顯示版本號。
 - `-h`: 顯示說明。
 
+## 與 Antigravity 整合
+
+此存儲庫已針對 [Antigravity](https://antigravity.google) 進行優化。您可以使用內建的工作流來自動化圖標創建。
+
+1. **全域安裝**: 為了讓工作流在任何項目中都能運行，請先安裝此工具：
+   ```bash
+   go install github.com/ns29qrk/anti-webp2icons@latest
+   ```
+2. **斜線指令**: 在 Antigravity 聊天框中使用 `/create-app-icons` 即可觸發自動化圖標生成流程。
+
 ## 更新歷史
 
 ### v1.0.0 (2025-12-18)
