@@ -1,0 +1,22 @@
+# Binaries
+webp2icons
+webp2icons.exe
+
+# Dependencies
+vendor/
+go.sum
+
+# OS generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Generated Icons (for testing)
+*.ico
+*.icns
+*_icon_*.png
+
+# test_pic
+_test_pic/
